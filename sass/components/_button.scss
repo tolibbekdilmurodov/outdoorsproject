@@ -1,0 +1,40 @@
+
+.btn {
+    margin-top: 5em;
+    border: none;
+    padding: 1em 3em;
+    font-size: 1.5em;
+    border-radius: 3em;
+    text-transform: uppercase;
+    cursor: pointer;
+    animation-name: btn;
+    animation-duration: 2s;
+}
+
+.btn-box {
+    text-align: center;
+}
+
+
+
+.btn {
+    color: rgb(82, 73, 73);
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 3em;
+    animation-name: btn-Hover;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
