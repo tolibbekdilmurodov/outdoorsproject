@@ -1,5 +1,13 @@
 .row{
     max-width: $gird-width;
     margin: 0 auto;
-    background: #eee;
+    background: rgb(116, 91, 91);
+    height: 1rem;
+    border: 1px solid rgb(143, 97, 97);
+    >div{
+        float: right;
+        :not(:last-child){
+            margin-right: 1rem;
+        }
+    }
 }
