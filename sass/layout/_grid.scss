@@ -1,5 +1,7 @@
 .row{
-    max-width: $gird-width;
+    max-width: $grid-width;
     margin: 0 auto;
-    background: #eee;
+    background: rgb(116, 91, 91);
+    height: 1rem;
+    border: 1px solid rgb(126, 99, 99);
 }
